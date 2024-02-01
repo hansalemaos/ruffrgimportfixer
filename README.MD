@@ -12,6 +12,10 @@ Usage:
     from ruffrgimportfixer import fix_imports
 	fix_imports('some_pythonfile.py')
 	# or from the commandline ('some_pythonfile.py' as the only arg)
+
+    # or a simple bat file: 
+    python -c "from ruffrgimportfixer import fix_imports;fix_imports(r'''%*''')"
+
     
 Dependencies:
     - ruff (https://github.com/astral-sh/ruff)

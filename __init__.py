@@ -66,7 +66,7 @@ if __name__ == "__main__":
         )
         sys.exit(1)
     rgpath = shutil.which("rg.exe")
-    if not ruffpath:
+    if not rgpath:
         input(
             "ripgrep not found! Please install ripgrep https://github.com/BurntSushi/ripgrep , put it in your path and restart the script"
         )
